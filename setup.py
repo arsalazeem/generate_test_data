@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='generate_test_data',
       version='1.0',
@@ -6,5 +6,6 @@ setup(name='generate_test_data',
       author='Arsal Azeem',
       author_email='gward@python.net',
       url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
+      # packages=['distutils', 'distutils.command'],
+
      )

@@ -1,0 +1,6 @@
+README.md
+setup.py
+generate_test_data.egg-info/PKG-INFO
+generate_test_data.egg-info/SOURCES.txt
+generate_test_data.egg-info/dependency_links.txt
+generate_test_data.egg-info/top_level.txt
