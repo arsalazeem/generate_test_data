@@ -3,6 +3,12 @@ import string
 
 
 
+
+def generate_random_phone_numer():
+   return str(random.randint(3084512113,3344512113))
+
+
+
 def get_random_string(length):
     letters = string.ascii_lowercase
     result_str = ''.join(random.choice(letters) for i in range(length))
@@ -3134,5 +3140,14 @@ def return_brand():
 def generate_random_companies():
     return return_brand()
 
+def generate_random_stripe_card():
+    cvv=random.randint(100,999)
+    card_numbers_collection = ["4242424242424242", "36227206271668", "4000056655665556", "5555555555554444", "2223003122003222","5200828282828210"]
+    valid_card_number=random.choice(card_numbers_collection)
+    expiration_date="02/27"
+    return {"cvv":cvv,"card_number":valid_card_number,"expiration_date":expiration_date}
+
+
+print(generate_random_stripe_card())
 
 
